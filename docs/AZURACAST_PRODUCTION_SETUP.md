@@ -1,0 +1,4 @@
+# Production AzuraCast
+AzuraCast software is free/open-source. A VPS, domain, bandwidth, backups, and operations normally cost money; do not treat trial/free tiers as availability guarantees.
+
+Provision an Ubuntu VPS sized for listeners, update it, install Docker/Compose, and install AzuraCast using its official production installer. Permit SSH plus HTTP/HTTPS and the station listener/source ports required by your deployment firewall. Point a domain DNS record to the server and configure HTTPS. In AzuraCast, create the station, upload/configure playlists, configure live DJ/source credentials, start the station, create a scoped API key, note station ID and verified HTTPS stream URL. Validate playback with VLC and Now Playing before setting backend environment variables. Keep source credentials only on the bridge host. Back up volumes/database and monitor disk, CPU, listener egress, and TLS.
