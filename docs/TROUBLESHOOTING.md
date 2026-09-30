@@ -1,0 +1,2 @@
+# Troubleshooting
+If `/api/radio/health` returns 503, verify AzuraCast base URL, API key scope, station ID, DNS/TLS, and outbound backend network. If VLC cannot play, start the station and verify mount/port/firewall before Flutter. If Now Playing is stale, check playlist automation/source connection. If phone playback fails locally, replace localhost with LAN IP. If LiveKit tokens are unavailable, ensure all three LiveKit variables are set; bridge status remains pending until a real encoder pipeline is deployed.

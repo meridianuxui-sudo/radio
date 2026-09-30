@@ -1,0 +1,2 @@
+# Deployment
+Deploy FastAPI behind HTTPS with environment secrets from a secret manager, PostgreSQL/Supabase, and a separate worker/bridge host where appropriate. Build the admin with `npm run build` and host static output. Set production CORS exactly. Deploy Flutter with its platform signing and configure its API base URL—not any privileged radio credential. Use managed backups, logs, rate limits, monitoring, and JWT secret rotation.

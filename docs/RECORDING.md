@@ -1,0 +1,2 @@
+# Recording
+Start a recording with a live session, capture the mixed contribution or station output server-side, process and normalize it, upload a private object to Supabase Storage, then write its storage path, duration, hosts, thumbnail, and publication status to `recordings`. Use a signed temporary playback URL when access is restricted. Publish only after processing succeeds; retain original assets and audit metadata.
